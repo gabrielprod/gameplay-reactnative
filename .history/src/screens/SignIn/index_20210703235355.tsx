@@ -2,9 +2,10 @@ import React, {useState} from "react";
 import { View, Text, Image, StatusBar} from "react-native";
 import { styles } from './styles'
 import illustrationImg from '../../assets/illustration.png'
-import { ButtonIcon } from '../../components/ButtonIcon'
 
 export function SignIn() { 
+    const [txtInput, setTxtInput] = useState('')
+
   return(
     <View style={styles.container}>
       <StatusBar
@@ -29,8 +30,6 @@ export function SignIn() {
           Crie grupo para jogar seus games {`\n`}
           favoritos com seus amigos
         </Text>
-
-        <ButtonIcon title="Entrar com discord" activeOpacity={0.83}/>
       </View>
     </View>
   )
