@@ -14,22 +14,19 @@ export const styles = StyleSheet.create({
     },
     content:{
         marginTop: -40,
-        paddingHorizontal: 50,
- 
+        paddingHorizontal: 50
     },
     title:{
+        fontFamily: theme.fonts.text400,
         color: theme.colors.heading,
         textAlign: 'center',
         fontSize: 40,
-        lineHeight:40,
-        marginBottom: 16,
-        fontFamily: theme.fonts.title700,
+        marginBottom: 16
     },
     subtitle: {
         color: theme.colors.heading,
         fontSize: 15,
         textAlign: 'center',
-        marginBottom: 64,
-        fontFamily: theme.fonts.title500
+        marginBottom: 64
     }
 })

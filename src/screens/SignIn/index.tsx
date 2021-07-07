@@ -4,6 +4,7 @@ import { styles } from './styles'
 import illustrationImg from '../../assets/illustration.png'
 import { ButtonIcon } from '../../components/ButtonIcon'
 
+
 export function SignIn() { 
   return(
     <View style={styles.container}>
@@ -19,10 +20,10 @@ export function SignIn() {
       />
 
       <View style={styles.content}>
-        <Text style={styles.title}>
-          Organize {`\n`}
-          suas jogatinas {`\n`}
-          facilmente
+        <Text style={styles.title}> 
+          Conecte-se {`\n`}
+          e Organize suas{`\n`}
+          jogatinas
         </Text>
 
         <Text style={styles.subtitle}>

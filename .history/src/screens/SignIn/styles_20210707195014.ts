@@ -15,13 +15,12 @@ export const styles = StyleSheet.create({
     content:{
         marginTop: -40,
         paddingHorizontal: 50,
- 
+        paddingBottom: 60
     },
     title:{
         color: theme.colors.heading,
         textAlign: 'center',
         fontSize: 40,
-        lineHeight:40,
         marginBottom: 16,
         fontFamily: theme.fonts.title700,
     },
@@ -29,7 +28,6 @@ export const styles = StyleSheet.create({
         color: theme.colors.heading,
         fontSize: 15,
         textAlign: 'center',
-        marginBottom: 64,
-        fontFamily: theme.fonts.title500
+        marginBottom: 64
     }
 })

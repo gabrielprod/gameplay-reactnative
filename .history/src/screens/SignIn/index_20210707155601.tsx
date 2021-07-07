@@ -20,9 +20,9 @@ export function SignIn() {
 
       <View style={styles.content}>
         <Text style={styles.title}>
+          Conect-se e {`\n`}
           Organize {`\n`}
-          suas jogatinas {`\n`}
-          facilmente
+          suas jogatinas
         </Text>
 
         <Text style={styles.subtitle}>
@@ -30,7 +30,7 @@ export function SignIn() {
           favoritos com seus amigos
         </Text>
 
-        <ButtonIcon title="Entrar com discord" activeOpacity={0.89}/>
+        <ButtonIcon title="Entrar com discord" activeOpacity={0.83}/>
       </View>
     </View>
   )

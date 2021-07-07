@@ -8,18 +8,22 @@ export const styles = StyleSheet.create({
         backgroundColor: theme.colors.primary,
         borderRadius: 8,
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginBottom: 19
     },
     iconWrapper: {
         width: 56,
         height: 56,
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderRightWidth: 1,
+        borderColor: theme.colors.line
     },
 
     icon: {
-
+        width: 24,
+        height: 18
     },
     title: {
         flex: 1,
