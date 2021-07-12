@@ -1,18 +1,13 @@
-import React, {useState} from "react";
-import { View, Text, Image, StatusBar} from "react-native";
-import { styles } from './styles'
-import illustrationImg from '../../assets/illustration.png'
-import { ButtonIcon } from '../../components/ButtonIcon'
+import React from "react";
+import { Image, Text, View } from "react-native";
+import illustrationImg from '../../assets/illustration.png';
+import { ButtonIcon } from '../../components/ButtonIcon';
+import { styles } from './styles';
 
 
 export function SignIn() { 
   return(
     <View style={styles.container}>
-      <StatusBar
-        barStyle='light-content'
-        backgroundColor='transparent'
-        translucent
-      />
       <Image 
         source={illustrationImg}
         style={styles.image}
