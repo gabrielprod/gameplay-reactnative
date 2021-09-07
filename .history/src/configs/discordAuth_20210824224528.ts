@@ -1,0 +1,5 @@
+const REDIRECT_URL = ''
+const SCOPE = ''
+const RESPONSE_TYPE = 'Token'
+const CLIENT_ID = ''
+const CDN_IMAGE = 'https://cdn.discordapp.com'
